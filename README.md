@@ -9,17 +9,17 @@
   - Instructions
   - Data File
 #### Titanic Data Cleaning Exercise
-  - Instructions
-  - Data File
+  - [Instructions](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/Titanic%20Excel%20PQ%20Cleaning%20Exercise/titanic_cleaning_ExcelPQ.docx)
+  - [Data File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/Titanic%20Excel%20PQ%20Cleaning%20Exercise/Titanic-Dataset.csv)
 ### Excel Formulas and Functions
 #### Formulas and Functions Slide Deck
-  - [Markdown File](./Excel%20Formulas%20and%20Functions/Day1PM_pres_transformdata.slides.md)
+  - [Markdown File](./2%20Excel%20Formulas%20and%20Functions/Day1PM_pres_transformdata.slides.md)
 #### Trainer Demo
-  - [Instructions](./main/Excel%20Formulas%20and%20Functions/Day1PM_TrainerDemoInstructions.docx)
-  - [Data File](./main/Excel%20Formulas%20and%20Functions/Day1PM_trainerDemoData.xlsx)
+  - [Instructions](./main/2%20Excel%20Formulas%20and%20Functions/Day1PM_TrainerDemoInstructions.docx)
+  - [Data File](./main/2%20Excel%20Formulas%20and%20Functions/Day1PM_trainerDemoData.xlsx)
 #### Learner Exercise
-  - [Instructions](./Excel%20Formulas%20and%20Functions/Day1PM_Learner_Instructions.docx)
-  - [Data File](./Excel%20Formulas%20and%20Functions/Day1PM_learner_WorkshopData.xlsx)
+  - [Instructions](./2%20Excel%20Formulas%20and%20Functions/Day1PM_Learner_Instructions.docx)
+  - [Data File](./2%20Excel%20Formulas%20and%20Functions/Day1PM_learner_WorkshopData.xlsx)
 ### Additional Resources
 #### Audible Data Cleaning Exercise
   - Instructions
