@@ -1,6 +1,6 @@
 ## Data Bootcamp Outline and Links
 
-### Intro to Data Analysis and Cleaning Data in Power Query (*Need Desktop version of Excel*)
+### 1 Intro to Data Analysis and Cleaning Data in Power Query (*Need Desktop version of Excel*)
 #### Intro to Data Analysis Slide Deck
   - [Markdown File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
 #### Dirty Data Slide Deck
@@ -11,7 +11,7 @@
 #### Titanic Data Cleaning Exercise
   - [Instructions](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/Titanic%20Excel%20PQ%20Cleaning%20Exercise/titanic_cleaning_ExcelPQ.docx)
   - [Data File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/Titanic%20Excel%20PQ%20Cleaning%20Exercise/Titanic-Dataset.csv)
-### Excel Formulas and Functions
+### 2 Excel Formulas and Functions
 #### Formulas and Functions Slide Deck
   - [Markdown File](./2%20Excel%20Formulas%20and%20Functions/Day1PM_pres_transformdata.slides.md)
 #### Trainer Demo
@@ -26,3 +26,7 @@
   - [Data File](./2%20Excel%20Formulas%20and%20Functions/Audible%20Data%20Cleaning%20Exercise/audible_uncleaned.csv)
 #### Practice Resources
 [Excel Practice Online](https://excel-practice-online.com/)
+
+### 3 Exploratory Data Analysis: Creating Effective Visualizations in Excel
+#### Starter Activity
+  - [Markdown File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/analytics_group_activity.md)
