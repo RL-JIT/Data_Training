@@ -2,7 +2,7 @@
 
 ### Intro to Data Analysis and Cleaning Data in Power Query (*Need Desktop version of Excel*)
 #### Intro to Data Analysis Slide Deck
-  - [Markdown File](./1 Intro to Data Analysis and Excel/IntrotoDataAnalysis.slides.md)
+  - [Markdown File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
 #### Dirty Data Slide Deck
   - [Markdown File](RL-JIT/Data_Training/1%20Intro%20to%20Data%20Analysis%20and%20Excel/DirtyData.slides.md)
 #### Superstore Sales Data Cleaning Exercise
