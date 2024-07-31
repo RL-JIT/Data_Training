@@ -27,7 +27,15 @@
 #### Practice Resources
 [Excel Practice Online](https://excel-practice-online.com/)
 
-### 3 Exploratory Data Analysis: Creating Effective Visualizations in Excel
+### 3 Exploratory Data Analysis: Creating Effective Visualisations in Excel
 #### Starter Activity
   - [Markdown File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/analytics_group_activity.md)
   - [Online Drag and Drop Activity](https://app.nearpod.com/?pin=flx6k)
+#### Visualisations Slide Deck
+  - Markdown File
+#### Visualisations Practice Activity
+  - Instructions
+  - Data File
+### More Visualisations and Pivot Tables
+  - Instructions
+  - Data File
