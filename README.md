@@ -32,10 +32,10 @@
   - [Markdown File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/analytics_group_activity.md)
   - [Online Drag and Drop Activity](https://app.nearpod.com/?pin=flx6k)
 #### Visualisations Slide Deck
-  - Markdown File
+  - [Markdown File](./3%20Data%20Visualisations%20in%20Excel/Day2AM_Lecture_vis.slides.md)
 #### Visualisations Practice Activity
-  - Instructions
-  - Data File
+  - [Instructions](./3%20Data%20Visualisations%20in%20Excel/Day2AM_LearnerInstructions_xlvis.docx)
+  - [Data File](./2%20Excel%20Formulas%20and%20Functions/Day1PM_learner_WorkshopData.xlsx) *This is the formulas and functions learner exercise data.*
 #### More Visualisations and Pivot Tables
-  - Instructions
-  - Data File
+  - [Instructions](./3%20Data Visualisations%20in%20Excel/Consolidation_excel_workshop.docx)
+  - [Data File](./3%20Data Visualisations%20in%20Excel/pivottable_salesdata.xlsx)
