@@ -39,3 +39,5 @@
 #### More Visualisations and Pivot Tables
   - [Instructions](./3%20Data%20Visualisations%20in%20Excel/Consolidation_excel_workshop.docx)
   - [Data File](./3%20Data%20Visualisations%20in%20Excel/pivottable_salesdata.xlsx)
+#### Additional Resources
+  - Please make some visualisations from the Superstore sales and/or Titanic datasets from the first day (links above if you need to redownload these).
