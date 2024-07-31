@@ -37,5 +37,5 @@
   - [Instructions](./3%20Data%20Visualisations%20in%20Excel/Day2AM_LearnerInstructions_xlvis.docx)
   - [Data File](./2%20Excel%20Formulas%20and%20Functions/Day1PM_learner_WorkshopData.xlsx) *This is the formulas and functions learner exercise data.*
 #### More Visualisations and Pivot Tables
-  - [Instructions](./3%20Data Visualisations%20in%20Excel/Consolidation_excel_workshop.docx)
-  - [Data File](./3%20Data Visualisations%20in%20Excel/pivottable_salesdata.xlsx)
+  - [Instructions](./3%20Data%20Visualisations%20in%20Excel/Consolidation_excel_workshop.docx)
+  - [Data File](./3%20Data%20Visualisations%20in%20Excel/pivottable_salesdata.xlsx)
