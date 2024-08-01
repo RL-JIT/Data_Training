@@ -43,7 +43,7 @@
   - Please make some visualisations from the Superstore sales and/or Titanic datasets from the first day (links above if you need to redownload these).
 
 ### 4 Assignment 1: Excel and Tableau 
-(Work on Task 1 and 2 this week...Full assignment due 23/08)
+Work on Task 1 and 2 this week...Full assignment due 23/08
   - [Instructions PDF 1](./4%20Assignment1/Excel&Tableau%20Assignment%20-%20part1.pdf)
   - [Instructions PDF 2](./4%20Assignment1/Excel&Tableau%20Assignment%20-%20part2.pdf)
   - [Instructions PDF 3](./4%20Assignment1/Excel&Tableau%20Assignment%20-%20part3.pdf)
