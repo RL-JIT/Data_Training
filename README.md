@@ -26,6 +26,11 @@
   - [Data File](./2%20Excel%20Formulas%20and%20Functions/Audible%20Data%20Cleaning%20Exercise/audible_uncleaned.csv)
 #### Practice Resources
 [Excel Practice Online](https://excel-practice-online.com/)
+### 4 Assignment 1: Excel and Tableau
+  - Instructions PDF 1
+  - Instructions PDF 2
+  - Datafile (Wealth of Nations)
+
 
 ### 3 Exploratory Data Analysis: Creating Effective Visualisations in Excel
 #### Starter Activity
