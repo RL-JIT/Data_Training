@@ -52,6 +52,9 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
 
 ### 5 Advanced Excel Functions
   - [Markdown Slide Deck](./5%20Advanced_Excel_Functions/AdvancedExcelTopics.slides.md)
-  - Practice Problems Workbook
+  - Practice Exercise
+    - [Instructions](./5%20Advanced_Excel_Functions/AdvancedExcelTopics_Instructions.docx)
+    - [Datafile 1](./5%20Advanced_Excel_Functions/first_dataset.csv)
+    - [Datafile 2](./5%20Advanced_Excel_Functions/second_dataset.csv)
 
 
