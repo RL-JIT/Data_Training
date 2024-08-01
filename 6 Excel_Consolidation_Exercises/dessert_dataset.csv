@@ -1,0 +1,9 @@
+Dessert ID,Dessert Name,Category,Price per Unit,Units Sold,Total Revenue,Customer Rating,Inventory Remaining
+1,Chocolate Cake,Cakes,5.0,120,0,4.5,30
+2,Lemon Tart,Tarts,3.5,150,0,4.2,20
+3,Blueberry Muffin,Muffins,2.75,200,0,4.7,50
+4,Cheesecake,Cakes,4.5,100,0,4.8,10
+5,Apple Pie,Pies,3.75,80,0,4.3,15
+6,Brownie,Brownies,2.5,160,0,4.6,25
+7,Croissant,Pastries,2.0,140,0,4.4,40
+8,Strawberry Shortcake,Cakes,5.5,110,0,4.9,5

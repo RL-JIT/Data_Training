@@ -56,7 +56,7 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Instructions](./5%20Advanced_Excel_Functions/AdvancedExcelTopics_Instructions.docx)
     - [Datafile 1](./5%20Advanced_Excel_Functions/first_dataset.csv)
     - [Datafile 2](./5%20Advanced_Excel_Functions/second_dataset.csv)
-### 6 Friday Excel Practice
+### 6 Excel Consolidation Exercises
   - Dessert Dataset Analysis
     - [Instructions]()
     - [Dataset]()
