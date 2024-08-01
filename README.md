@@ -27,9 +27,9 @@
 #### Practice Resources
 [Excel Practice Online](https://excel-practice-online.com/)
 ### 4 Assignment 1: Excel and Tableau
-  - Instructions PDF 1
-  - Instructions PDF 2
-  - Datafile (Wealth of Nations)
+  - [Instructions PDF 1](./4%20Assignment1/Excel&Tableau%20Assignment%20-%20part1.pdf)
+  - [Instructions PDF 2](./4%20Assignment1/Excel&Tableau%20Assignment%20-%20part2.pdf)
+  - [Datafile (Wealth of Nations)](./4%20Assignment1/The%20Wealth%20of%20nations.xlsx)
 
 
 ### 3 Exploratory Data Analysis: Creating Effective Visualisations in Excel
