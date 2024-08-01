@@ -57,13 +57,13 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Datafile 1](./5%20Advanced_Excel_Functions/first_dataset.csv)
     - [Datafile 2](./5%20Advanced_Excel_Functions/second_dataset.csv)
 ### 6 Friday Excel Practice
-  Dessert Dataset Analysis
-    - Instructions
-    - Dataset
-  Olympics Dataset Analysis
-    - Instructions
-    - Dataset
-  Travel Destinations Dataset Analysis
-    - Instructions
-    - Dataset
+  - Dessert Dataset Analysis
+    - [Instructions]()
+    - [Dataset]()
+  - Olympics Dataset Analysis
+    - [Instructions]()
+    - [Dataset]()
+  - Travel Destinations Dataset Analysis
+    - [Instructions]()
+    - [Dataset]()
 
