@@ -50,4 +50,8 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
   - [Instructions PDF 4](./4%20Assignment1/Excel&Tableau%20Assignment%20-%20part4.pdf)
   - [Datafile (Wealth of Nations)](./4%20Assignment1/The%20Wealth%20of%20nations.xlsx)
 
+### 5 Advanced Excel Functions
+  - [Markdown Slide Deck](./5%20Advanced_Excel_Functions/AdvancedExcelTopics.slides.md)
+  - Practice Problems Workbook
+
 
