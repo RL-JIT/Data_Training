@@ -68,4 +68,5 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
   - Travel Destinations Dataset Analysis
     - [Instructions](./6%20Excel_Consolidation_Exercises/Travel%20Destinations%20Dataset%20Analysis%20Instructions.docx)
     - [Dataset](./6%20Excel_Consolidation_Exercises/travel_dataset.csv)
+    - [Dataset](./6%20Excel_Consolidation_Exercises/dessert_dataset_2.csv)
 
