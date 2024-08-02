@@ -60,8 +60,8 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Datafile 2](./5%20Advanced_Excel_Functions/second_dataset.csv)
 ### 6 Excel Consolidation Exercises
   - Dessert Dataset Analysis
-    - [Instructions]()
-    - [Dataset]()
+    - [Instructions](./6%20Excel_Consolidation_Exercises/Dessert%20Shop%20Analysis%20Instructions.docx)
+    - [Dataset](./6%20Excel_Consolidation_Exercises/dessert_dataset.csv)
   - Olympics Dataset Analysis
     - [Instructions]()
     - [Dataset]()
