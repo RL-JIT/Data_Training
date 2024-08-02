@@ -2,7 +2,8 @@
 
 ### 0 Bootcamp Curriculum Map
   - [PDF File](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf)
-### 1 Intro to Data Analysis and Cleaning Data in Power Query (*Need Desktop version of Excel*)
+### 1 Intro to Data Analysis and Cleaning Data in Power Query 
+*Note that you need the Desktop version of Excel to access Power Query*
 #### Intro to Data Analysis Slide Deck
   - [Markdown File](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
 #### Dirty Data Slide Deck
