@@ -1,0 +1,6 @@
+Name,Age,Gender,Height,Weight,Score
+John Doe,28.0,Male,175.0,72,88.5
+Jane Smith,34.0,Female,160.0,58,92.3
+Alice Johnson,,Female,168.0,65,78.9
+Mike Brown,23.0,Male,180.0,85,85.2
+Sara White,35.0,Female,,55,91.1
