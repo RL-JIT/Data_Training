@@ -187,10 +187,4 @@
    head(data)
    ```
 
-### Notes:
-- Encourage them to check for and handle missing values, convert data types, rename variables, remove duplicates, and handle outliers.
-- This exercise should take about 15 minutes.
-
----
-
 These exercises will help participants practice the basics of R, including data types, naming conventions, package management, summary statistics, and data cleaning. Each exercise includes detailed steps and code snippets for easy follow-along.
