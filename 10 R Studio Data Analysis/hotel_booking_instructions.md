@@ -10,7 +10,7 @@ Try to do as much as possible from each step before looking at the instructions.
 <details>
 <summary><b> 2. Loading the Data</b></summary>
 1. **Upload the Dataset:**
-   - In Posit Cloud, go to the "Files" pane and click on "Upload."
+   - In Posit Cloud, go to the "Files" pane and click on "Upload."  <br>
    - Upload the `hotel_bookings.csv` file.
 
 2. **Load the Dataset:**
@@ -38,20 +38,20 @@ Try to do as much as possible from each step before looking at the instructions.
    ```
 
 4. **Data Types in R:**
-   - **Numeric:** Represents numbers.
-   - **Integer:** Represents integer values (whole numbers).
-   - **Character:** Represents text or string data.
-   - **Factor:** Represents categorical data and can have levels.
-   - **Logical:** Represents TRUE or FALSE values.
-   - **Date/Time:** Represents date and time values.
+   - **Numeric:** Represents numbers.  <br>
+   - **Integer:** Represents integer values (whole numbers).  <br>
+   - **Character:** Represents text or string data.  <br>
+   - **Factor:** Represents categorical data and can have levels.  <br>
+   - **Logical:** Represents TRUE or FALSE values.  <br>
+   - **Date/Time:** Represents date and time values.  <br>
 </details>
 
 <details>
 <summary><b>  Questions for Learners 1</b></summary>
-- How many rows and columns are in the dataset?
-- What are the first few entries in the `hotel` column?
-- What is the average lead time for bookings?
-- What is the data type of the `arrival_date_year` column?
+- How many rows and columns are in the dataset?  <br>
+- What are the first few entries in the `hotel` column?  <br>
+- What is the average lead time for bookings?  <br>
+- What is the data type of the `arrival_date_year` column?  <br>
 </details>
 
 <details>
@@ -110,12 +110,12 @@ Try to do as much as possible from each step before looking at the instructions.
 
 <details>
 <summary><b>  Questions for Learners 2</b></summary>
-- How many missing values are there in the `children` column before and after filling them?
-- Why might you choose to fill missing values with the median instead of the mean?
-- What data type is the `hotel` column after conversion?
-- What data type is the `arrival_date_year` column after conversion?
-- How many duplicate rows were found and removed?
-- What criteria did you use to remove outliers in the `adr` column?
+- How many missing values are there in the `children` column before and after filling them?  <br>
+- Why might you choose to fill missing values with the median instead of the mean?  <br>
+- What data type is the `hotel` column after conversion?  <br>
+- What data type is the `arrival_date_year` column after conversion?  <br>
+- How many duplicate rows were found and removed?  <br>
+- What criteria did you use to remove outliers in the `adr` column?  <br>
 </details>
 
 <details>
@@ -128,6 +128,6 @@ Try to do as much as possible from each step before looking at the instructions.
 
 <details>
 <summary><b> Questions for Learners 3</b></summary>
-- What function is used to save a dataframe to a CSV file?
+- What function is used to save a dataframe to a CSV file?  <br>
 - Why is it important to save your cleaned data?
 </details>
