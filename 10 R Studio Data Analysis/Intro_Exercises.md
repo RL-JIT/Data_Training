@@ -186,5 +186,3 @@
    ```r
    head(data)
    ```
-
-These exercises will help participants practice the basics of R, including data types, naming conventions, package management, summary statistics, and data cleaning. Each exercise includes detailed steps and code snippets for easy follow-along.
