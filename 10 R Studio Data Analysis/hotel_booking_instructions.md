@@ -120,7 +120,7 @@ Try to do as much as possible from each step before looking at the instructions.
 
 <details>
 <summary><b> 5. Saving the Cleaned Data </b></summary>
-1. **Save the Cleaned Data for Future Use:**
+1. **Save the Cleaned Data for Future Use:** <br>
    ```r
    write.csv(hotel_data, "Cleaned_Hotel_Bookings.csv", row.names = FALSE)
    ```
