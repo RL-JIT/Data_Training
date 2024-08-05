@@ -3,7 +3,7 @@ Try to do as much as possible from each step before looking at the instructions.
 
 <details>
 <summary><b> 1. Setting Up a New R Studio Project</b></summary>
-1. **Navigate to Posit.cloud** in your web browser.
+1. **Navigate to Posit.cloud** in your web browser. <br>
 2. **Open a new R Studio project** in Posit Cloud.
 </details>
 
