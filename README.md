@@ -74,11 +74,13 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
   - Travel Destinations Dataset Analysis
     - [Instructions](./6%20Excel_Consolidation_Exercises/Travel%20Destinations%20Dataset%20Analysis%20Instructions.docx)
     - [Dataset](./6%20Excel_Consolidation_Exercises/travel_dataset.csv)
+</details>
+
 ### 10 Intro to R Studio Data Analysis
   - R Studio Introduction
     - [Exercise Instructions](./10%20R%20Studio%20Data%20Analysis/Intro_Exercises.md)
     - [Dataset](./10%20R%20Studio%20Data%20Analysis/sample_dataset_with_missing.csv)
-</details>
+
 
 
 
