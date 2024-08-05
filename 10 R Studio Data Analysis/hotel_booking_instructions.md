@@ -6,7 +6,7 @@ Try to do as much as possible from each step before looking at the instructions.
    
    1. **Navigate to Posit.cloud** in your web browser. <br>
    2. **Open a new R Studio project** in Posit Cloud.
-   3. 
+      
 </details>
 
 <details>
