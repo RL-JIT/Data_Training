@@ -150,13 +150,6 @@
                 Height = ifelse(is.na(Height), median(Height, na.rm = TRUE), Height))
      ```
 
-2. **Convert data types:**
-   - Convert `Gender` to a factor:
-     ```r
-     data <- data %>%
-         mutate(Gender = as.factor(Gender))
-     ```
-
 3. **Rename variables for consistency:**
    - Rename variables using underscores or camelCase:
      ```r
