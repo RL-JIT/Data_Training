@@ -4,7 +4,7 @@ Try to do as much as possible from each step before looking at the instructions.
 <details>
 <summary><b> 1. Setting Up a New R Studio Project</b></summary>
 1. **Navigate to Posit.cloud** in your web browser. <br>
-2. **Open a new R Studio project** in Posit Cloud.
+2. **Open a new R Studio project** in Posit Cloud. 
 </details>
 
 <details>
@@ -14,7 +14,7 @@ Try to do as much as possible from each step before looking at the instructions.
    - Upload the `hotel_bookings.csv` file.
 
 2. **Load the Dataset:**
-   - Use the `read.csv` function to load the hotel bookings dataset.
+   - Use the `read.csv` function to load the hotel bookings dataset. <br>
    ```r
    hotel_data <- read.csv("hotel_bookings.csv")
    ```
@@ -22,7 +22,7 @@ Try to do as much as possible from each step before looking at the instructions.
 
 <details>
 <summary><b>  3. Data Exploration </b></summary>
-1. **View the Data:** Use the `View` function to open the dataset in a spreadsheet-like view.
+1. **View the Data:** Use the `View` function to open the dataset in a spreadsheet-like view. <br>
    ```r
    View(hotel_data)
    ```
