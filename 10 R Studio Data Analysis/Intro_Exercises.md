@@ -84,7 +84,7 @@
 2. **Load the dataset:**
    - Read the dataset into R:
      ```r
-     data <- read.csv("path/to/your/sample_dataset_with_missing.csv")
+     data <- read.csv("sample_dataset_with_missing.csv")
      ```
 
 3. **Explore the dataset:**
