@@ -86,6 +86,6 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Dataset](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/Titanic%20Excel%20PQ%20Cleaning%20Exercise/Titanic-Dataset.csv)
   - Hotel Booking Data Analysis
     - [Instructions]()
-    - [Dataset]()
+    - [Dataset](./10%20R%20Studio%20Data%20Analysis/hotel_bookings.csv)
 
 
