@@ -6,7 +6,7 @@ Try to do as much as possible from each step before looking at the instructions.
    
    1. **Navigate to Posit.cloud** in your web browser. <br>
    2. **Open a new R Studio project** in Posit Cloud.
-      
+
 </details>
 
 <details>
@@ -119,8 +119,7 @@ Try to do as much as possible from each step before looking at the instructions.
 
 <details>
 <summary><b>  
-   
-   ### Questions for Learners 2 
+   Questions for Learners 2 
 </b></summary>
 
       - How many missing values are there in the `children` column before and after filling them? 
@@ -143,9 +142,7 @@ Try to do as much as possible from each step before looking at the instructions.
 
 <details>
 <summary><b> 
-
-   ### Questions for Learners 3
-
+   Questions for Learners 3
 </b></summary>
 
    - What function is used to save a dataframe to a CSV file?  <br>
