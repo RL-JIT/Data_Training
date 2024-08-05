@@ -51,12 +51,6 @@
      print(class(name))
      ```
 
-   - Convert `gender` to factor:
-     ```r
-     gender <- factor(gender)
-     print(class(gender))
-     ```
-
 6. **Correct the variable names to follow naming conventions:**
    - The following variables do not follow naming conventions. Correct them to use clear, descriptive names and consistent naming patterns:
      ```r
