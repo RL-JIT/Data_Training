@@ -109,13 +109,12 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
 ## PM: Exploratory Data Analysis in R
       
   [EDA in R Markdown Slides](./10%20R%20Studio%20Data%20Analysis/EDA_in_R.md)
-
-    - Iris Demo
-      - [Instructions](.)
-      - [Dataset](.)
-    - Titanic Practice Exercise
-      - [Instructions](.)
-      - [Dataset](.)
-    - Air Quality Data Cleaning Practice Exercise
-      - [Instructions](.)
-      - [Dataset](.)
+    - Titanic EDA Demo
+      - [Instructions](./10%20R%20Studio%20Data%20Analysis/titanic_EDA.md)
+      - [Dataset](./10%20R%20Studio%20Data%20Analysis/cleaned_titanic_data.csv)
+    - Iris EDA
+      - [Instructions](./10%20R%20Studio%20Data%20Analysis/Iris_Data_EDA.md)
+      - iris Dataset is built into R
+    - Air Quality EDA
+      - [Instructions](./10%20R%20Studio%20Data%20Analysis/air_quality_EDA_instructions.md)
+      - airquality Dataset is built into R
