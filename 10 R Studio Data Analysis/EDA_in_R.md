@@ -10,8 +10,8 @@
 - Allows complex and multi-layered visualizations
 - Example:
   ```r
-  install.packages("ggplot2")
-  library(ggplot2)
+  install.packages("tidyverse")
+  library(tidyverse)
   ```
 ### Notes:
 - Explain that `ggplot2` is the go-to package for creating detailed and complex visualizations.

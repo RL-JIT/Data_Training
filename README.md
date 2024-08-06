@@ -107,6 +107,7 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - Dataset for `airquality` is built into R
      
 ## PM: Exploratory Data Analysis in R
+    [EDA in R Markdown Slides](./10%20R%20Studio%20Data%20Analysis/EDA_in_R.md)
     - Iris Demo
       - [Instructions](.)
       - [Dataset](.)
