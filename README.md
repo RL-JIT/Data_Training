@@ -103,8 +103,8 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/iris_data_cleaning_instructions.md) <br>
     - Dataset is built into R and is called *iris* <br>
   5) **Air Quality Data Cleaning and Transforming** <br>
-    - [Instructions](.) <br>
-    - [Dataset](.)
+    - [Instructions](./10%20R%20Studio%20Data%20Analysis/air_quality_cleaning_instructions.md) <br>
+    - Dataset for `airquality` is built into R
      
 ## PM: Exploratory Data Analysis in R
     - Iris Demo
