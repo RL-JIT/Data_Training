@@ -96,6 +96,9 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
       - [Intro to Data Analysis Markdown Slides](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
   2) [Starter Activity on Data Analysis Lifecycle](https://app.nearpod.com/?pin=7cijt)
   3) **Trainer Demo:** Titanic Data Cleaning including removing cabin column and removing any duplicate rows.
+
+     [Titanic Data Cleaning R Script](./10%20R%20Studio%20Data%20Analysis/Titanic_Data_Cleaning_Script.R)
+  
   4) **Iris Data Cleaning and Transforming** <br>
     - [Instructions](.) <br>
     - [Dataset](.) <br>
