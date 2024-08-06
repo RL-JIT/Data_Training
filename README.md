@@ -100,8 +100,8 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
      [Titanic Data Cleaning R Script](./10%20R%20Studio%20Data%20Analysis/Titanic_Data_Cleaning_Script.R)
   
   4) **Iris Data Cleaning and Transforming** <br>
-    - [Instructions](.) <br>
-    - [Dataset](.) <br>
+    - [Instructions](./10%20R%20Studio%20Data%20Analysis/iris_data_cleaning_instructions.md) <br>
+    - Dataset is built into R and is called *iris* <br>
   5) **Air Quality Data Cleaning and Transforming** <br>
     - [Instructions](.) <br>
     - [Dataset](.)

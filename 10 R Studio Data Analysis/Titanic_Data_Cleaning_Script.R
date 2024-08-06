@@ -14,7 +14,8 @@ str(titanic_data)
 titanic_data <- titanic_data %>% mutate(Age = ifelse(is.na(Age), median(Age, na.rm = TRUE), Age)) 
 
 # Remove rows with missing Embarked Values
-titanic_data <- titanic_data %>% filter(!is.na(Embarked))
+titanic_data_cleaned <- titanic_data %>%
+  filter(Embarked != "")
 
 # Drop the Cabin Column
 titanic_data <- titanic_data %>% select(-Cabin)
