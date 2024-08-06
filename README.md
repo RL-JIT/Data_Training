@@ -77,6 +77,7 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
 </details>
 
 ### 10 Intro to R Studio Data Analysis
+[Link to Posit Cloud](https://posit.cloud/) 
   - R Studio Introduction
     - [Markdown Slides](./10%20R%20Studio%20Data%20Analysis/RStudio_tutorial.slides.md)
     - [Exercise Instructions](./10%20R%20Studio%20Data%20Analysis/Intro_Exercises.md)
