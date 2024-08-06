@@ -10,6 +10,12 @@ summary(titanic_data)
 # look at structure of dataframe
 str(titanic_data)
 
+# Looking at the Column Names
+names(titanic_data)
+
+# Changing the Column Names to Lowercase
+names(titanic_data) <- tolower(names(titanic_data))
+
 # Fill missings values for Age with the median
 titanic_data <- titanic_data %>% mutate(Age = ifelse(is.na(Age), median(Age, na.rm = TRUE), Age)) 
 
