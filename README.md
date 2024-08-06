@@ -81,13 +81,33 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Markdown Slides](./10%20R%20Studio%20Data%20Analysis/RStudio_tutorial.slides.md)
     - [Exercise Instructions](./10%20R%20Studio%20Data%20Analysis/Intro_Exercises.md)
     - [Dataset](./10%20R%20Studio%20Data%20Analysis/sample_dataset_with_missing.csv)
-  - Titanic Data Analysis Cleaning and Transforming
+  - Titanic Cleaning and Transforming
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/Titanic_Analysis.md)
     - [Dataset](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/Titanic%20Excel%20PQ%20Cleaning%20Exercise/Titanic-Dataset.csv)
-  - Hotel Booking Data Analysis
+  - Hotel Booking Data Cleaning and Tranforming
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/hotel_booking_instructions.md)
     - [Dataset](./10%20R%20Studio%20Data%20Analysis/hotel_bookings.csv)
-   
-  - Data Visualisations
 
-
+### Data Analysis in R - Day two
+  ## AM: Data Analysis Lifecycle and Consolidating Learning Re Data Cleaning and Transforming in R
+    
+    Please review the following before doing your starter activity.
+        - [Intro to Data Analysis Markdown Slides](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
+    [Starter Activity on Data Analysis Lifecycle](https://app.nearpod.com/?pin=7cijt)
+    Trainer Demo: Titanic Data Cleaning including removing cabin column and removing any duplicate rows.
+    - Iris Data Cleaning and Transforming
+      - [Instructions](.)
+      - [Dataset](.)
+    - Air Quality Data Cleaning and Transforming
+      - [Instructions](.)
+      - [Dataset](.)
+  ## PM: Exploratory Data Analysis in R
+    - Iris Demo
+      - [Instructions](.)
+      - [Dataset](.)
+    - Titanic Practice Exercise
+      - [Instructions](.)
+      - [Dataset](.)
+    - Air Quality Data Cleaning Practice Exercise
+      - [Instructions](.)
+      - [Dataset](.)
