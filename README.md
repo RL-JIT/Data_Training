@@ -76,7 +76,7 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Dataset](./6%20Excel_Consolidation_Exercises/travel_dataset.csv)
 </details>
 
-### 10 Intro to R Studio Data Analysis
+### 10 Intro to R Studio Data Analysis - Day One
 [Link to Posit Cloud](https://posit.cloud/) 
   - R Studio Introduction
     - [Markdown Slides](./10%20R%20Studio%20Data%20Analysis/RStudio_tutorial.slides.md)
@@ -89,8 +89,8 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/hotel_booking_instructions.md)
     - [Dataset](./10%20R%20Studio%20Data%20Analysis/hotel_bookings.csv)
 
-### Data Analysis in R - Day two
-## AM: Data Analysis Lifecycle and Review of Data Cleaning and Transforming
+### Data Analysis in R - Day Two
+## AM: Data Analysis Lifecycle and Review of Data Cleaning and Transforming 
     
   1) Please *review the following* before doing your starter activity.
       - [Intro to Data Analysis Markdown Slides](./1%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
@@ -105,10 +105,15 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
   5) **Air Quality Data Cleaning and Transforming** <br>
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/air_quality_cleaning_instructions.md) <br>
     - Dataset for `airquality` is built into R
-     
-## PM: Exploratory Data Analysis in R
+
+
+## PM: Exploratory Data Analysis in R 
       
   [EDA in R Markdown Slides](./10%20R%20Studio%20Data%20Analysis/EDA_in_R.md)
+  
+## Exploratory Data Analysis in R and Github - Day three
+
+[Starter Activity: 4 Types of Analytics](https://app.nearpod.com/?pin=cvsj9)
 
 Titanic EDA Demo
   - [Instructions](./10%20R%20Studio%20Data%20Analysis/titanic_EDA.md)
@@ -121,3 +126,6 @@ Iris EDA
 Air Quality EDA
   - [Instructions](./10%20R%20Studio%20Data%20Analysis/air_quality_EDA_instructions.md)
   - airquality Dataset is built into R
+
+
+
