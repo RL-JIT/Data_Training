@@ -18,8 +18,8 @@
 #### 3. Installing and Loading Required Packages
 1. **Install and load `ggplot2` for data visualization:**
    ```r
-   install.packages("ggplot2")
-   library(ggplot2)
+   install.packages("tidyverse")
+   library(tidyverse)
    ```
 
 #### 4. Creating Visualizations
