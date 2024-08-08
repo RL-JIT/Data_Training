@@ -6,7 +6,7 @@ https://sites.google.com/view/krinal-soni/home <br>
 https://sites.google.com/view/joymago/home
 
 ### Demo Portfolios
-https://sites.google.com/view/marypoppinsportfolio?usp=sharing <br>
+https://sites.google.com/view/marypoppinsportfolio <br>
 https://sites.google.com/view/tamoghnadas12/ 
 
 ### External Portfolios
