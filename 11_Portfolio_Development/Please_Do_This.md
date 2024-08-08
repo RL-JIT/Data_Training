@@ -21,4 +21,5 @@ If you are just getting started in Github, then please complete the following st
 8) **Exit the editor** by clicking on the hamburger to the left and selecting go to repository.
 9) In the Settings, **set up your public profile**.
 10) In the Settings, **choose a theme for your repository** under Appearance.
-11) In the home page of your github profile, Navigate to Explore Repositories or Trending Repositories to see others work. **Post your favourite repository in the chat**.
+11) In the home page of your github profile, Navigate to **Explore Repositories** or **Trending Repositories** to see others work. **Post your favourite repository in the chat**.
+12) **Post the link for your repository** in the chat.
