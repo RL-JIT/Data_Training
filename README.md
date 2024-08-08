@@ -138,7 +138,7 @@ Then complete the following steps in Github.
 ## Portfolio Development - Day Four
 
 Take a look at the following portfolios to get an idea of what style of portfolio you would like to have.
-[Examples_of_learner_portfolios](./11_Portfolio_Development/Examples_of_portfolios.md)
+[Examples_of_portfolios](./11_Portfolio_Development/Examples_of_portfolios.md)
 
 Navigate to https://sites.google.com/new to create a website.
 
