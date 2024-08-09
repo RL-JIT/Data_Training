@@ -118,6 +118,7 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
 Titanic EDA Demo
   - [Instructions](./10%20R%20Studio%20Data%20Analysis/titanic_EDA.md)
   - [Dataset](./10%20R%20Studio%20Data%20Analysis/cleaned_titanic_data.csv)
+  - [Data Vis Script](./10%20R%20Studio%20Data%20Analysis/Titanic_Data_Vis_Script.R)
 
 Iris EDA
   - [Instructions](./10%20R%20Studio%20Data%20Analysis/Iris_Data_EDA.md)
