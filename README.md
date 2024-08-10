@@ -76,6 +76,18 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
     - [Dataset](./06%20Excel_Consolidation_Exercises/travel_dataset.csv)
 </details>
 
+### 9 Full Data Analysis in Python
+  - Ramen Noodle Data Analysis (Demo)
+    - [Instructions for Trainer](./09%20Python%20Data%20Analysis/Ramen%20/RamenDataAnalysis_Instructions.md)
+    - [Dataset](./09%20Python%20Data%20Analysis/Ramen%20/Top%20Ramen%20Ratings.csv)
+  - Superhero Powers Data Analysis
+    - Guidance for learner
+    - [Dataset](./09%20Python%20Data%20Analysis/Superhero_Powers/super_hero_powers.csv)
+  - Highest Grossing Female Concert Artists
+    - Guidance for learner
+    - [Dataset](./09%20Python%20Data%20Analysis/Highest_Grossing_Female_Concert_Artists/highest_gross_concert_women.csv)
+
+
 ### 10 Intro to R Studio Data Analysis - Day One
 [Link to Posit Cloud](https://posit.cloud/) 
   - R Studio Introduction
