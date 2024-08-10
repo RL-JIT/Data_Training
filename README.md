@@ -97,7 +97,7 @@ Work on Task 1 and 2 this week...Full assignment due 23/08
   - Titanic Cleaning and Transforming
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/Titanic_Analysis.md)
     - [Dataset](./01%20Intro%20to%20Data%20Analysis%20and%20Excel/Titanic%20Excel%20PQ%20Cleaning%20Exercise/Titanic-Dataset.csv)
-  - Hotel Booking Data Cleaning and Tranforming
+  - Hotel Booking Data Cleaning and Transforming
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/hotel_booking_instructions.md)
     - [Dataset](./10%20R%20Studio%20Data%20Analysis/hotel_bookings.csv)
 
