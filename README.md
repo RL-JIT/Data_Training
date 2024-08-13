@@ -1,4 +1,4 @@
-## Data Curriculum Outline and Links
+## Data Curriculum 
 
 <details>
 <summary><h3 id="0-technical-set-up-troubleshooting-references">0 Technical Set-Up/Troubleshooting/References</h3></summary>
