@@ -13,34 +13,26 @@
 <details>
 <summary><h4 id="data-analysis-in-excel">Data Analysis in Excel</h4></summary>
 <ul>
-<li><h5 id="1-intro-to-data-analysis-and-cleaning-data-in-excel-s-power-query-01-20intro-20to-20data-20analysis-20and-20excel-">1 <a href="./01%20Intro%20to%20Data%20Analysis%20and%20Excel">Intro to Data Analysis and Cleaning Data in Excel&#39;s Power Query</a></h5>
-<em>Note that you need the Desktop version of Excel to access Power Query</em></li>
-<li><h5 id="2-excel-formulas-and-functions-02-20excel-20formulas-20and-20functions-">2 <a href="./02%20Excel%20Formulas%20and%20Functions">Excel Formulas and Functions</a></h5>
-</li>
-<li><h5 id="3-exploratory-data-analysis-creating-effective-visualisations-in-excel-03-20data-20visualisations-20in-20excel-">3 <a href="./03%20Data%20Visualisations%20in%20Excel">Exploratory Data Analysis: Creating Effective Visualisations in Excel</a></h5>
-</li>
-<li><h5 id="4-assignment-1-excel-and-tableau-04-20assignment1-">4 <a href="./04%20Assignment1">Assignment 1: Excel and Tableau</a></h5>
-</li>
-<li><h5 id="5-advanced-excel-functions-05-20advanced_excel_functions-">5 <a href="05%20Advanced_Excel_Functions">Advanced Excel Functions</a></h5>
-<em>Note that you need the Desktop version of Excel to use What-If Analysis</em></li>
-<li><h5 id="6-excel-consolidation-exercises-06-20excel_consolidation_exercises-">6 <a href="./06%20Excel_Consolidation_Exercises">Excel Consolidation Exercises</a></h5>
-</li>
+<li><a href="./01%20Intro%20to%20Data%20Analysis%20and%20Excel">Intro to Data Analysis and Cleaning Data in Excel&#39;s Power Query</a> <em> (Note that you need the Desktop version of Excel to access Power Query)</em></li>
+<li><a href="./02%20Excel%20Formulas%20and%20Functions">Excel Formulas and Functions</a></li>
+<li><a href="./03%20Data%20Visualisations%20in%20Excel">Exploratory Data Analysis: Creating Effective Visualisations in Excel</a></li>
+<li><a href="./04%20Assignment1">Assignment 1: Excel and Tableau</a></li>
+<li><a href="05%20Advanced_Excel_Functions">Advanced Excel Functions</a> <em> (Note that you need the Desktop version of Excel to use What-If Analysis)</em></li>
+<li><a href="./06%20Excel_Consolidation_Exercises">Excel Consolidation Exercises</a></li>
 </ul>
 </details>
 
 <details>
 <summary><h4 id="data-analysis-in-python">Data Analysis in Python</h4></summary>
 <ul>
-<li><h5 id="9-full-data-analysis-in-python-09-20python-20data-20analysis-">9 <a href="./09%20Python%20Data%20Analysis">Full Data Analysis in Python</a></h5>
-</li>
+<li><a href="./09%20Python%20Data%20Analysis">Full Data Analysis in Python</a></li>
 </ul>
 </details>
 
 <details>
 <summary><h4 id="data-analysis-in-r">Data Analysis in R</h4></summary>
 <ul>
-<li><h5 id="10-r-studio-data-analysis-10-20r-20studio-20data-20analysis-">10 <a href="./10%20R%20Studio%20Data%20Analysis">R Studio Data Analysis</a></h5>
-</li>
+<li><a href="./10%20R%20Studio%20Data%20Analysis">R Studio Data Analysis</a></li>
 </ul>
 </details>
 
@@ -48,7 +40,6 @@
 <details>
 <summary><h4 id="portfolio-development">Portfolio Development</h4></summary>
 <ul>
-<li><h5 id="11-portfolio-development-11_portfolio_development-">11 <a href="./11_Portfolio_Development">Portfolio Development</a></h5>
-</li>
+<li><a href="./11_Portfolio_Development">Portfolio Development</a></li>
 </ul>
 </details>
