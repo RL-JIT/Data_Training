@@ -32,7 +32,9 @@
 <details>
 <summary><h4 id="data-analysis-in-r">Data Analysis in R</h4></summary>
 <ul>
-<li><a href="./10%20R%20Studio%20Data%20Analysis">R Studio Data Analysis</a></li>
+<li><a href="./10%20R%20Studio%20Data%20Analysis/readme.md#intro-to-data-analysis-lifecycle-and-r-studio">Intro to Data Analysis Lifecyle and R Studio</a></li>
+<li><a href="./10%20R%20Studio%20Data%20Analysis/readme.md#data-cleaning-and-transforming-in-r-studio">Data Cleaning and Transforming in R Studio</a></li>
+<li><a href="./10%20R%20Studio%20Data%20Analysis/readme.md#exploratory-data-analysis-in-r">Data Visualisation for EDA in R</a></li>
 </ul>
 </details>
 
