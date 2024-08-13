@@ -1,11 +1,15 @@
 ## Data Curriculum Outline and Links
 
-### 0 Technical Set-Up/Troubleshooting/References
-  - [Bootcamp Curriculum Map (PDF)](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf) (this was for Just IT Data Bootcamp Learners)
-  - [How to Share Screen](./How_to_Share_Screen.md)
-  - [Markdown Cheat Sheet](https://github.com/lifeparticle/Markdown-Cheatsheet) (*Note: this is how tech folks speak, a cheat sheet is just a guide and you aren't cheating by using it*)
-  - [How to Read Documentation in Python/Pandas](https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/)
-
+<details>
+<summary><h3 id="0-technical-set-up-troubleshooting-references">0 Technical Set-Up/Troubleshooting/References</h3></summary>
+<ul>
+<li><a href="./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf">Bootcamp Curriculum Map (PDF)</a> (this was for Just IT Data Bootcamp Learners)</li>
+<li><a href="./How_to_Share_Screen.md">How to Share Screen</a></li>
+<li><a href="https://github.com/lifeparticle/Markdown-Cheatsheet">Markdown Cheat Sheet</a> (<em>Note: this is how tech folks speak, a cheat sheet is just a guide and you aren&#39;t cheating by using it</em>)</li>
+<li><a href="https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/">How to Read Documentation in Python/Pandas</a></li>
+</ul>
+</details>
+  
 <details>
 <summary><h3 id="data-analysis-in-excel">Data Analysis in Excel</h3></summary>
 <ul>
