@@ -1,6 +1,6 @@
 ## Data Analysis in R
 ### Intro to Data Analysis Lifecycle and R Studio
-  - [Starter Activity](http://www.SQLBolt.com)
+  - [SQL Starter Activity](http://www.SQLBolt.com)
   - [Intro to Data Analysis Markdown Slides](./01%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
     *(will likely remove intro DA slides later as belongs at start of programme)*
   - R Studio Introduction
