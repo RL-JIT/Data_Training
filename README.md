@@ -1,7 +1,7 @@
-## Data Bootcamp Outline and Links
+## Data Curriculum Outline and Links
 
 ### 0 Technical Set-Up/Troubleshooting/References
-  - [Bootcamp Curriculum Map (PDF)](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf) (this is for Just IT)
+  - [Bootcamp Curriculum Map (PDF)](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf) (this was for Just IT Data Bootcamp Learners)
   - [How to Share Screen](./How_to_Share_Screen.md)
   - [Markdown Cheat Sheet](https://github.com/lifeparticle/Markdown-Cheatsheet) (*Note: this is how tech folks speak, a cheat sheet is just a guide and you aren't cheating by using it*)
   - [How to Read Documentation in Python/Pandas](https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/)
@@ -15,6 +15,6 @@
 ### 6 [Excel Consolidation Exercises](./06%20Excel_Consolidation_Exercises)
 ### 9 [Full Data Analysis in Python](./09%20Python%20Data%20Analysis)
 ### 10 [Intro to R Studio Data Analysis - Day One](./10%20R%20Studio%20Data%20Analysis)
-## Portfolio Development - Day Four
+### 11 [Portfolio Development](./11_Portfolio_Development)
 
 
