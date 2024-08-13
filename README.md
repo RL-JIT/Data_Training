@@ -3,7 +3,7 @@
 ### 0 Technical Set-Up/Troubleshooting/Curriculum Maps
   - [Bootcamp Curriculum Map (PDF)](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf)
   - [How to Share Screen](./How_to_Share_Screen.md)
-  - [Markdown Cheat Sheet (this is how tech folks speak, a cheat sheet is just a guide and you aren't cheating by using it)](https://github.com/lifeparticle/Markdown-Cheatsheet)
+  - [Markdown Cheat Sheet](https://github.com/lifeparticle/Markdown-Cheatsheet) (*Note: this is how tech folks speak, a cheat sheet is just a guide and you aren't cheating by using it*)
 ### 1 Intro to Data Analysis and Cleaning Data in Power Query 
 *Note that you need the Desktop version of Excel to access Power Query*
 #### Intro to Data Analysis Slide Deck
