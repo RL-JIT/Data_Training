@@ -50,3 +50,6 @@ Iris EDA
 Air Quality EDA
   - [Instructions](./10%20R%20Studio%20Data%20Analysis/air_quality_EDA_instructions.md)
   - airquality Dataset is built into R
+
+
+Want to work in R Markdown files? Watch this [video](https://www.youtube.com/watch?v=GEvyAqYa8p0).
