@@ -18,7 +18,7 @@
 ### Data Cleaning and Transforming in R Studio
     
   1) [Starter Activity on Data Analysis Lifecycle](https://app.nearpod.com/?pin=7cijt)
-  2) **Trainer Demo:** <br>
+  2) **Trainer Demo** <br>
      *(Titanic Data Cleaning including removing cabin column and removing any duplicate rows.)* <br>
     - [Titanic Data Cleaning R Script](./10%20R%20Studio%20Data%20Analysis/Titanic_Data_Cleaning_Script.R)
   
