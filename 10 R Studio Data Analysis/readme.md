@@ -20,7 +20,7 @@
   1) [Starter Activity on Data Analysis Lifecycle](https://app.nearpod.com/?pin=7cijt)
   2) **Trainer Demo:** <br>
      *(Titanic Data Cleaning including removing cabin column and removing any duplicate rows.)*
-     [Titanic Data Cleaning R Script](./10%20R%20Studio%20Data%20Analysis/Titanic_Data_Cleaning_Script.R)
+     - [Titanic Data Cleaning R Script](./10%20R%20Studio%20Data%20Analysis/Titanic_Data_Cleaning_Script.R)
   
   4) **Iris Data Cleaning and Transforming** <br>
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/iris_data_cleaning_instructions.md) <br>
