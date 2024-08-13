@@ -7,7 +7,7 @@
   - [How to Read Documentation in Python/Pandas](https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/)
 ### 1 [Intro to Data Analysis and Cleaning Data in Power Query](./01%20Intro%20to%20Data%20Analysis%20and%20Excel) 
 *Note that you need the Desktop version of Excel to access Power Query*
-### 2 [Excel Formulas and Functions](.n/02%20Excel%20Formulas%20and%20Functions)
+### 2 [Excel Formulas and Functions](./02%20Excel%20Formulas%20and%20Functions)
 ### 3 [Exploratory Data Analysis: Creating Effective Visualisations in Excel](./03%20Data%20Visualisations%20in%20Excel)
 ### 4 [Assignment 1: Excel and Tableau](./04%20Assignment1)
 ### 5 [Advanced Excel Functions](05%20Advanced_Excel_Functions)
