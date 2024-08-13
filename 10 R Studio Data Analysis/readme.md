@@ -3,9 +3,9 @@
   - [Starter Activity](http://www.SQLBolt.com)
   - [Intro to Data Analysis Markdown Slides] (./01%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
     *(will likely remove intro DA slides later as belongs at start of programme)*
-[Link to Posit Cloud](https://posit.cloud/) 
   - R Studio Introduction
     - [Markdown Slides](./10%20R%20Studio%20Data%20Analysis/RStudio_tutorial.slides.md)
+    - [Link to Posit Cloud](https://posit.cloud/) 
     - [Exercise Instructions](./10%20R%20Studio%20Data%20Analysis/Intro_Exercises.md)
     - [Dataset](./10%20R%20Studio%20Data%20Analysis/sample_dataset_with_missing.csv)
   - Titanic Cleaning and Transforming
