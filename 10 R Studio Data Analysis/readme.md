@@ -1,7 +1,7 @@
 ## Data Analysis in R
 ### Intro to Data Analysis Lifecycle and R Studio
   - [SQL Starter Activity](http://www.SQLBolt.com)
-  - [Intro to Data Analysis Markdown Slides](./01%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md)
+  - [Intro to Data Analysis Markdown Slides](./01%20Intro%20to%20Data%20Analysis%20and%20Excel/IntrotoDataAnalysis.slides.md) <br>
     *(will likely remove intro DA slides later as belongs at start of programme)*
   - R Studio Introduction
     - [Markdown Slides](./10%20R%20Studio%20Data%20Analysis/RStudio_tutorial.slides.md)
@@ -18,9 +18,8 @@
 ### Data Cleaning and Transforming in R Studio
     
   1) [Starter Activity on Data Analysis Lifecycle](https://app.nearpod.com/?pin=7cijt)
-  2) **Trainer Demo:**
+  2) **Trainer Demo:** <br>
      *(Titanic Data Cleaning including removing cabin column and removing any duplicate rows.)*
-
      [Titanic Data Cleaning R Script](./10%20R%20Studio%20Data%20Analysis/Titanic_Data_Cleaning_Script.R)
   
   4) **Iris Data Cleaning and Transforming** <br>
