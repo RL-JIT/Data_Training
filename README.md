@@ -26,6 +26,7 @@
 <summary><h4 id="data-analysis-in-python">Data Analysis in Python</h4></summary>
 <ul>
 <li><a href="./09%20Python%20Data%20Analysis">Full Data Analysis in Python</a></li>
+  <em>(Will upload more curriculum at later time)</em>
 </ul>
 </details>
 
