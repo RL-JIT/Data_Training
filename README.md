@@ -1,7 +1,8 @@
 ## Data Bootcamp Outline and Links
 
-### 0 Bootcamp Curriculum Map
-  - [PDF File](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf)
+### 0 Technical Set-Up/Troubleshooting/Curriculum Maps
+  - [Bootcamp Curriculum Map (PDF)](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf)
+  - [How to Share Screen](./How_to_Share_Screen)
 ### 1 Intro to Data Analysis and Cleaning Data in Power Query 
 *Note that you need the Desktop version of Excel to access Power Query*
 #### Intro to Data Analysis Slide Deck
