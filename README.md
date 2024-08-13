@@ -5,7 +5,7 @@
   - [How to Share Screen](./How_to_Share_Screen.md)
   - [Markdown Cheat Sheet](https://github.com/lifeparticle/Markdown-Cheatsheet) (*Note: this is how tech folks speak, a cheat sheet is just a guide and you aren't cheating by using it*)
   - [How to Read Documentation in Python/Pandas](https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/)
-### 1 [Intro to Data Analysis and Cleaning Data in Power Query](./01%20Intro%20to%20Data%20Analysis%20and%20Excel) 
+### 1 [Intro to Data Analysis and Cleaning Data in Excel's Power Query](./01%20Intro%20to%20Data%20Analysis%20and%20Excel) 
 *Note that you need the Desktop version of Excel to access Power Query*
 ### 2 [Excel Formulas and Functions](./02%20Excel%20Formulas%20and%20Functions)
 ### 3 [Exploratory Data Analysis: Creating Effective Visualisations in Excel](./03%20Data%20Visualisations%20in%20Excel)
