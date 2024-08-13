@@ -1,7 +1,7 @@
 ## Data Bootcamp Outline and Links
 
 ### 0 Technical Set-Up/Troubleshooting/References
-  - [Bootcamp Curriculum Map (PDF)](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf)
+  - [Bootcamp Curriculum Map (PDF)](./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf) (this is for Just IT)
   - [How to Share Screen](./How_to_Share_Screen.md)
   - [Markdown Cheat Sheet](https://github.com/lifeparticle/Markdown-Cheatsheet) (*Note: this is how tech folks speak, a cheat sheet is just a guide and you aren't cheating by using it*)
   - [How to Read Documentation in Python/Pandas](https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/)
