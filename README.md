@@ -14,8 +14,11 @@
   - #### 5 [Advanced Excel Functions](05%20Advanced_Excel_Functions)
     *Note that you need the Desktop version of Excel to use What-If Analysis*
   - #### 6 [Excel Consolidation Exercises](./06%20Excel_Consolidation_Exercises)
-### 9 [Full Data Analysis in Python](./09%20Python%20Data%20Analysis)
-### 10 [R Studio Data Analysis](./10%20R%20Studio%20Data%20Analysis)
-### 11 [Portfolio Development](./11_Portfolio_Development)
+### Data Analysis in Python
+  - ### 9 [Full Data Analysis in Python](./09%20Python%20Data%20Analysis)
+### Data Analysis in R
+  - ### 10 [R Studio Data Analysis](./10%20R%20Studio%20Data%20Analysis)
+### Portfolio Development
+  - ### 11 [Portfolio Development](./11_Portfolio_Development)
 
 
