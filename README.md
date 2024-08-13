@@ -9,7 +9,7 @@
 *Note that you need the Desktop version of Excel to access Power Query*
 ### 2 [Excel Formulas and Functions](.n/02%20Excel%20Formulas%20and%20Functions)
 ### 3 [Exploratory Data Analysis: Creating Effective Visualisations in Excel](./03%20Data%20Visualisations%20in%20Excel)
-### 4 [Assignment 1: Excel and Tableau](.04%20Assignment1)
+### 4 [Assignment 1: Excel and Tableau](./04%20Assignment1)
 ### 5 [Advanced Excel Functions](05%20Advanced_Excel_Functions)
 *Note that you need the Desktop version of Excel to use What-If Analysis*
 ### 6 [Excel Consolidation Exercises](./06%20Excel_Consolidation_Exercises)
