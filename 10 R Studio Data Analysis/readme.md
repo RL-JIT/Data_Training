@@ -29,7 +29,7 @@
     - [Instructions](./10%20R%20Studio%20Data%20Analysis/air_quality_cleaning_instructions.md) <br>
     - Dataset for `airquality` is built into R
  
-## Exploratory Data Analysis in R 
+### Exploratory Data Analysis in R 
 [Starter Activity: 4 Types of Analytics](https://app.nearpod.com/?pin=cvsj9)
 
 Creating visualisations to explore relationships in our data
