@@ -33,7 +33,8 @@
       
   [EDA in R Markdown Slides](./10%20R%20Studio%20Data%20Analysis/EDA_in_R.md)
   
-## Exploratory Data Analysis in R and Github - Day three
+## Exploratory Data Analysis in R 
+Creating visualisations to explore relationships in our data
 
 [Starter Activity: 4 Types of Analytics](https://app.nearpod.com/?pin=cvsj9)
 
@@ -49,11 +50,3 @@ Iris EDA
 Air Quality EDA
   - [Instructions](./10%20R%20Studio%20Data%20Analysis/air_quality_EDA_instructions.md)
   - airquality Dataset is built into R
-
-Navigate to the following link and set up a Github account if you do not already have one...
-
-[Github Signup Page](https://github.com/signup)
-
-Then complete the following steps in Github.
-
-[Assigned Steps for Working in Github](./11_Portfolio_Development/Please_Do_This.md)
