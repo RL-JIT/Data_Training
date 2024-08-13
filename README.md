@@ -42,6 +42,7 @@
 <details>
 <summary><h4 id="portfolio-development">Portfolio Development</h4></summary>
 <ul>
-<li><a href="./11_Portfolio_Development">Portfolio Development</a></li>
+<li><a href="./11_Portfolio_Development/readme.md#creating-github-repositories-for-data-portfolio-project-files">GitHub Repositories</a></li>
+<li><a href="./11_Portfolio_Development/readme.md#building-a-website-to-showcase-a-data-portfolio-and-tech-skill-set">Professional Website</a></li>  
 </ul>
 </details>
