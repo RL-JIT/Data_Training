@@ -1,6 +1,6 @@
 ### 3 Exploratory Data Analysis: Creating Effective Visualisations in Excel
 #### Starter Activity
-  - [Markdown File](https://github.com/RL-JIT/Data_Training/01%20Intro%20to%20Data%20Analysis%20and%20Excel/analytics_group_activity.md)
+  - [Markdown File](https://github.com/RL-JIT/blob/main/Data_Training/01%20Intro%20to%20Data%20Analysis%20and%20Excel/analytics_group_activity.md)
   - [Online Drag and Drop Activity](https://app.nearpod.com/?pin=flx6k)
 #### Visualisations Slide Deck
   - [Markdown File](./Day2AM_Lecture_vis.slides.md)
