@@ -1,6 +1,6 @@
 ### 9 Full Data Analysis in Python
   - Ramen Noodle Data Analysis (Demo)
-    - [Instructions for Trainer](./Ramen/RamenDataAnalysis.ipynb)
+    - [Guidance Analysis for Trainer](./Ramen/RamenDataAnalysis.ipynb)
     - [Dataset](./Ramen%20/Top%20Ramen%20Ratings.csv)
   - Superhero Powers Data Analysis
     - Guidance for learner
