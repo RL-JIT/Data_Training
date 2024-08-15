@@ -13,12 +13,13 @@
 ### Notes: 
 - Visualizations help in understanding complex data by presenting it in a simple, intuitive format.
 - They reveal patterns, trends, and insights that might be missed in raw data.
-Anscombe's quartet is a group of datasets (x, y) that have the same mean, standard deviation, and regression line.  If we just look at the basic stats, these dataset might seem to be the same... 
+Anscombe's quartet is a group of datasets (x, y) that have the same mean, standard deviation, and regression line.  If we just look at the basic stats, these dataset might seem to be the same...
+
 --
 
 ![](./assets/Anscombes_quartet_graph.png)
 
-Notes: ...but when we visualise these datasets, we see that they are in fact qualitatively different.
+### Notes: ...but when we visualise these datasets, we see that they are in fact qualitatively different.
 ---
 
 ## **Dashboards allow users to generate their own Insights
