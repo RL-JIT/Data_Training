@@ -6,7 +6,7 @@
 <li><a href="./Just_IT_Skills_Bootcamp_in_Data_Technician_Curriculum.pdf">Bootcamp Curriculum Map (PDF)</a> <em>(this was for Just IT Data Bootcamp Learners)</em></li>
 <li><a href="./How_to_Share_Screen.md">How to Share Screen</a></li>
 <li><a href="https://github.com/lifeparticle/Markdown-Cheatsheet">Markdown Cheat Sheet</a> (<em>Note: this is how tech folks speak, a cheat sheet is just a guide and you aren&#39;t cheating by using it</em>)</li>
-<li><a href="https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/">How to Read Documentation in Python/Pandas</a></li>
+<li><a href="https://www.databasestar.com/mysql-workbench-import-csv/">How to Read Documentation in Python/Pandas</a></li>
 </ul>
 </details>
   
@@ -40,6 +40,7 @@
 <summary><h4 id="data-analysis-with-SQL">SQL for Data Analytics <em>(Under Construction)</em></h4></summary>
 <ul>
 <li><a href="">SQL for Data Analytics (including MySQL)</a></li>
+<li><a href="https://learncodethehardway.com/blog/25-how-to-read-programmer-documentation/">How to import a CSV file using MySQL Workbench</a></li>
 </ul>
 </details>
 
