@@ -7,8 +7,7 @@
 
 ---
 
-## **Visualizations**
-### help to tell a Story
+## **Visualizations Help to tell a Story
 ![](./assets/Anscombes_quartet_table.png)
 
 ### Notes: 
@@ -22,9 +21,10 @@ Anscombe's quartet is a group of datasets (x, y) that have the same mean, standa
 Notes: ...but when we visualise these datasets, we see that they are in fact qualitatively different.
 ---
 
-## **Dashboards**
-### Allow users to Interact dynamically with the data and generate their own Insights.
+## **Dashboards allow users to generate their own Insights
 ![](./assets/Tableau_interactiveDashboard.png)
+
+### Notes: Dashboards allow users to interact dynamically with the data and generate their own Insights.
 
 ---
 
@@ -36,5 +36,5 @@ Notes: ...but when we visualise these datasets, we see that they are in fact qua
 
 ---
 
-## Let's Use Tableau
+## Let's Delve into Tableau
 
