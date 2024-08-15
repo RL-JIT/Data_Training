@@ -25,32 +25,28 @@
 <details>
 <summary><h4 id="data-analysis-with-Tableau">Data Analysis with Tableau <em>(Under Construction)</em></h4></summary> 
 <ul>
-<li><a href="./">Data Analytics with Tableau</a></li>
-  <em>(Will upload curriculum at later time)</em>
+<li><a href="">Data Analytics with Tableau</a></li>
 </ul>
 </details>
 
 <details>
 <summary><h4 id="data-analysis-with-Power BI">Data Analysis with Power BI <em>(Under Construction)</em></h4></summary> 
 <ul>
-<li><a href="./">Data Analytics with Power BI</a></li>
-  <em>(Will upload curriculum at later time)</em>
+<li><a href="">Data Analytics with Power BI</a></li>
 </ul>
 </details>
 
 <details>
 <summary><h4 id="data-analysis-with-SQL">SQL for Data Analytics <em>(Under Construction)</em></h4></summary>
 <ul>
-<li><a href="./">SQL for Data Analytics (including MySQL)</a></li>
-  <em>(Will upload curriculum at later time)</em>
+<li><a href="">SQL for Data Analytics (including MySQL)</a></li>
 </ul>
 </details>
 
 <details>
 <summary><h4 id="azure-data-analytics">Azure Data Analytics <em>(Under Construction)</em></h4></summary>
 <ul>
-<li><a href="./">Azure Data Analytics</a></li>
-  <em>(Will upload curriculum at later time)</em>
+<li><a href="">Azure Data Analytics</a></li>
 </ul>
 </details>
 
