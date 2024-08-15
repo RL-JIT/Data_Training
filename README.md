@@ -23,7 +23,7 @@
 </details>
 
 <details>
-<summary><h4 id="data-analysis-with-Tableau">Tableau Data Visualisation<em>(Under Construction)</em></h4></summary> 
+<summary><h4 id="data-analysis-with-Tableau">Tableau Data Visualisation</h4></summary> 
 <ul>
 <li><a href="./07_Tableau_Data_Visualisation">Tableau Data Visualisation</a></li>
 </ul>
