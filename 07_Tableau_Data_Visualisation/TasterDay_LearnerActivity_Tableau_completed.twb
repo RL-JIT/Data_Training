@@ -1,0 +1,2692 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Bakers+' inline='true' name='federated.0c1sylv0s3agl119vdwai1aikvp6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Bakers' name='textscan.14z21vw1k99hpc1dmxnuu1p29m09'>
+            <connection class='textscan' directory='C:/Users/ramlal/Documents/LaFosseAssociatesProgramme/TasterDay/GBBO_Dataset' filename='Bakers.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Bakers.csv' table='[Bakers#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='Season' ordinal='0' />
+            <column datatype='string' name='Baker' ordinal='1' />
+            <column datatype='integer' name='Age' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='string' name='Image Link' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Bakers.csv' table='[Bakers#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='integer' name='Season' ordinal='0' />
+              <column datatype='string' name='Baker' ordinal='1' />
+              <column datatype='integer' name='Age' ordinal='2' />
+              <column datatype='string' name='Gender' ordinal='3' />
+              <column datatype='string' name='Image Link' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='ChallengeBakes.csv' table='[ChallengeBakes#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='integer' name='Season' ordinal='0' />
+              <column datatype='integer' name='Episode' ordinal='1' />
+              <column datatype='string' name='Baker' ordinal='2' />
+              <column datatype='string' name='SeasonEpisode' ordinal='3' />
+              <column datatype='string' name='Signature Bake' ordinal='4' />
+              <column datatype='integer' name='Rank in Technical' ordinal='5' />
+              <column datatype='string' name='Showstopper' ordinal='6' />
+              <column datatype='string' name='Status' ordinal='7' />
+            </columns>
+          </relation>
+          <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Episodes.csv' table='[Episodes#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='date' name='Airdate' ordinal='0' />
+              <column datatype='integer' name='Season' ordinal='1' />
+              <column datatype='integer' name='Episode' ordinal='2' />
+              <column datatype='string' name='Theme' ordinal='3' />
+              <column datatype='string' name='Signature' ordinal='4' />
+              <column datatype='integer' name='Signature Time (min)' ordinal='5' />
+              <column datatype='string' name='Technical' ordinal='6' />
+              <column datatype='integer' name='Technical Time (min)' ordinal='7' />
+              <column datatype='string' name='Showstopper' ordinal='8' />
+              <column datatype='integer' name='Showstopper Time (min)' ordinal='9' />
+              <column datatype='real' name='MyRating (out of 10)' ordinal='10' />
+              <column datatype='real' name='MyViewership' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Outcomes.csv' table='[Outcomes#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='string' name='SeasonEpisode' ordinal='0' />
+              <column datatype='string' name='Baker' ordinal='1' />
+              <column datatype='integer' name='Star Baker' ordinal='2' />
+              <column datatype='integer' name='Did well' ordinal='3' />
+              <column datatype='integer' name='Safe' ordinal='4' />
+              <column datatype='integer' name='At risk' ordinal='5' />
+              <column datatype='integer' name='Eliminated' ordinal='6' />
+              <column datatype='integer' name='Absent' ordinal='7' />
+              <column datatype='integer' name='Handshake' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Seasons.csv' table='[Seasons#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='integer' name='Season' ordinal='0' />
+              <column datatype='string' name='Hosts' ordinal='1' />
+              <column datatype='string' name='Judges' ordinal='2' />
+              <column datatype='string' name='Network' ordinal='3' />
+              <column datatype='string' name='Winner' ordinal='4' />
+              <column datatype='integer' name='Year' ordinal='5' />
+              <column datatype='integer' name='PBS Season' ordinal='6' />
+              <column datatype='integer' name='Netflix Collection' ordinal='7' />
+              <column datatype='integer' name='Roku Season' ordinal='8' />
+              <column datatype='string' name='Location' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Absent]' value='[Outcomes.csv].[Absent]' />
+          <map key='[Age]' value='[Bakers.csv].[Age]' />
+          <map key='[Airdate]' value='[Episodes.csv].[Airdate]' />
+          <map key='[At risk]' value='[Outcomes.csv].[At risk]' />
+          <map key='[Baker (ChallengeBakes.csv)]' value='[ChallengeBakes.csv].[Baker]' />
+          <map key='[Baker (Outcomes.csv)]' value='[Outcomes.csv].[Baker]' />
+          <map key='[Baker]' value='[Bakers.csv].[Baker]' />
+          <map key='[Did well]' value='[Outcomes.csv].[Did well]' />
+          <map key='[Eliminated]' value='[Outcomes.csv].[Eliminated]' />
+          <map key='[Episode (Episodes.csv)]' value='[Episodes.csv].[Episode]' />
+          <map key='[Episode]' value='[ChallengeBakes.csv].[Episode]' />
+          <map key='[Gender]' value='[Bakers.csv].[Gender]' />
+          <map key='[Handshake]' value='[Outcomes.csv].[Handshake]' />
+          <map key='[Hosts]' value='[Seasons.csv].[Hosts]' />
+          <map key='[Image Link]' value='[Bakers.csv].[Image Link]' />
+          <map key='[Judges]' value='[Seasons.csv].[Judges]' />
+          <map key='[Location]' value='[Seasons.csv].[Location]' />
+          <map key='[MyRating (out of 10)]' value='[Episodes.csv].[MyRating (out of 10)]' />
+          <map key='[MyViewership]' value='[Episodes.csv].[MyViewership]' />
+          <map key='[Netflix Collection]' value='[Seasons.csv].[Netflix Collection]' />
+          <map key='[Network]' value='[Seasons.csv].[Network]' />
+          <map key='[PBS Season]' value='[Seasons.csv].[PBS Season]' />
+          <map key='[Rank in Technical]' value='[ChallengeBakes.csv].[Rank in Technical]' />
+          <map key='[Roku Season]' value='[Seasons.csv].[Roku Season]' />
+          <map key='[Safe]' value='[Outcomes.csv].[Safe]' />
+          <map key='[Season (ChallengeBakes.csv)]' value='[ChallengeBakes.csv].[Season]' />
+          <map key='[Season (Episodes.csv)]' value='[Episodes.csv].[Season]' />
+          <map key='[Season (Seasons.csv)]' value='[Seasons.csv].[Season]' />
+          <map key='[SeasonEpisode (Outcomes.csv)]' value='[Outcomes.csv].[SeasonEpisode]' />
+          <map key='[SeasonEpisode]' value='[ChallengeBakes.csv].[SeasonEpisode]' />
+          <map key='[Season]' value='[Bakers.csv].[Season]' />
+          <map key='[Showstopper (Episodes.csv)]' value='[Episodes.csv].[Showstopper]' />
+          <map key='[Showstopper Time (min)]' value='[Episodes.csv].[Showstopper Time (min)]' />
+          <map key='[Showstopper]' value='[ChallengeBakes.csv].[Showstopper]' />
+          <map key='[Signature Bake]' value='[ChallengeBakes.csv].[Signature Bake]' />
+          <map key='[Signature Time (min)]' value='[Episodes.csv].[Signature Time (min)]' />
+          <map key='[Signature]' value='[Episodes.csv].[Signature]' />
+          <map key='[Star Baker]' value='[Outcomes.csv].[Star Baker]' />
+          <map key='[Status]' value='[ChallengeBakes.csv].[Status]' />
+          <map key='[Technical Time (min)]' value='[Episodes.csv].[Technical Time (min)]' />
+          <map key='[Technical]' value='[Episodes.csv].[Technical]' />
+          <map key='[Theme]' value='[Episodes.csv].[Theme]' />
+          <map key='[Winner]' value='[Seasons.csv].[Winner]' />
+          <map key='[Year]' value='[Seasons.csv].[Year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Bakers.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[Bakers.csv]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Baker</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Baker]</local-name>
+            <parent-name>[Bakers.csv]</parent-name>
+            <remote-alias>Baker</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Bakers.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Bakers.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Image Link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Image Link]</local-name>
+            <parent-name>[Bakers.csv]</parent-name>
+            <remote-alias>Image Link</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Season (ChallengeBakes.csv)]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Episode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Episode]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>Episode</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Baker</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Baker (ChallengeBakes.csv)]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>Baker</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SeasonEpisode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SeasonEpisode]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>SeasonEpisode</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Signature Bake</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Signature Bake]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>Signature Bake</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank in Technical</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank in Technical]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>Rank in Technical</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Showstopper</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Showstopper]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>Showstopper</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[ChallengeBakes.csv]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Airdate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Airdate]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Airdate</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Season (Episodes.csv)]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Episode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Episode (Episodes.csv)]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Episode</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Theme</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Theme]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Theme</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Signature</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Signature]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Signature</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Signature Time (min)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Signature Time (min)]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Signature Time (min)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Technical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Technical]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Technical</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Technical Time (min)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Technical Time (min)]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Technical Time (min)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Showstopper</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Showstopper (Episodes.csv)]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Showstopper</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Showstopper Time (min)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Showstopper Time (min)]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>Showstopper Time (min)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MyRating (out of 10)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MyRating (out of 10)]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>MyRating (out of 10)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MyViewership</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MyViewership]</local-name>
+            <parent-name>[Episodes.csv]</parent-name>
+            <remote-alias>MyViewership</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SeasonEpisode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SeasonEpisode (Outcomes.csv)]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>SeasonEpisode</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Baker</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Baker (Outcomes.csv)]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>Baker</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Star Baker</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Star Baker]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>Star Baker</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Did well</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Did well]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>Did well</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Safe</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Safe]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>Safe</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>At risk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[At risk]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>At risk</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eliminated</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Eliminated]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>Eliminated</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Absent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Absent]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>Absent</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Handshake</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Handshake]</local-name>
+            <parent-name>[Outcomes.csv]</parent-name>
+            <remote-alias>Handshake</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Season (Seasons.csv)]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hosts</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Hosts]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Hosts</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Judges</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Judges]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Judges</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Network</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Network]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Network</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Winner]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Winner</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PBS Season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PBS Season]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>PBS Season</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Netflix Collection</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Netflix Collection]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Netflix Collection</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Roku Season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Roku Season]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Roku Season</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Seasons.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Episode]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='Venue' datatype='string' name='[Location - Split 1]' role='dimension' semantic-role='' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Location]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Location], &quot;,&quot;, 1 ) )' />
+      </column>
+      <column caption='City' datatype='string' name='[Location - Split 2]' role='dimension' semantic-role='[City].[Name]' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Location]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Location], &quot;,&quot;, 2 ) )' />
+      </column>
+      <column caption='Country' datatype='string' name='[Location - Split 3]' role='dimension' semantic-role='[Country].[Name]' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Location]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Location], &quot;,&quot;, 3 ) )' />
+      </column>
+      <column caption='My Viewership' datatype='real' name='[MyViewership]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Network]' role='dimension' type='nominal' />
+      <column caption='Season Episode' datatype='string' name='[SeasonEpisode]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Season]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Bakers.csv' datatype='table' name='[__tableau_internal_object_id__].[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ChallengeBakes.csv' datatype='table' name='[__tableau_internal_object_id__].[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Episodes.csv' datatype='table' name='[__tableau_internal_object_id__].[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Outcomes.csv' datatype='table' name='[__tableau_internal_object_id__].[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Seasons.csv' datatype='table' name='[__tableau_internal_object_id__].[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]' role='measure' type='quantitative' />
+      <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Season]' derivation='None' name='[none:Season:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Gender)' hidden='true' name='[Action (Gender)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Gender]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Network,Season)' hidden='true' name='[Action (Network,Season)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Network]' />
+          <groupfilter function='level-members' level='[none:Season:ok]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Geography'>
+          <field>[Location - Split 3]</field>
+          <field>[Location - Split 2]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/ramlal/AppData/Local/Temp/TableauTemp/#TableauTemp_05sur121vjzp7k1dg6ja50gvffdw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/29/2024 01:29:29 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B' table='[Extract].[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B' table='[Extract].[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]' type='table' />
+            <relation name='ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F' table='[Extract].[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]' type='table' />
+            <relation name='Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7' table='[Extract].[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]' type='table' />
+            <relation name='Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB' table='[Extract].[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]' type='table' />
+            <relation name='Seasons.csv_F3AB62048CCA4004B149C6CDB9763594' table='[Extract].[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[Absent]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[Absent]' />
+            <map key='[Age]' value='[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B].[Age]' />
+            <map key='[Airdate]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Airdate]' />
+            <map key='[At risk]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[At risk]' />
+            <map key='[Baker (ChallengeBakes.csv)]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[Baker]' />
+            <map key='[Baker (Outcomes.csv)]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[Baker]' />
+            <map key='[Baker]' value='[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B].[Baker]' />
+            <map key='[Did well]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[Did well]' />
+            <map key='[Eliminated]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[Eliminated]' />
+            <map key='[Episode (Episodes.csv)]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Episode]' />
+            <map key='[Episode]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[Episode]' />
+            <map key='[Gender]' value='[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B].[Gender]' />
+            <map key='[Handshake]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[Handshake]' />
+            <map key='[Hosts]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Hosts]' />
+            <map key='[Image Link]' value='[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B].[Image Link]' />
+            <map key='[Judges]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Judges]' />
+            <map key='[Location]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Location]' />
+            <map key='[MyRating (out of 10)]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[MyRating (out of 10)]' />
+            <map key='[MyViewership]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[MyViewership]' />
+            <map key='[Netflix Collection]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Netflix Collection]' />
+            <map key='[Network]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Network]' />
+            <map key='[PBS Season]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[PBS Season]' />
+            <map key='[Rank in Technical]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[Rank in Technical]' />
+            <map key='[Roku Season]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Roku Season]' />
+            <map key='[Safe]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[Safe]' />
+            <map key='[Season (ChallengeBakes.csv)]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[Season]' />
+            <map key='[Season (Episodes.csv)]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Season]' />
+            <map key='[Season (Seasons.csv)]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Season]' />
+            <map key='[SeasonEpisode (Outcomes.csv)]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[SeasonEpisode]' />
+            <map key='[SeasonEpisode]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[SeasonEpisode]' />
+            <map key='[Season]' value='[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B].[Season]' />
+            <map key='[Showstopper (Episodes.csv)]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Showstopper]' />
+            <map key='[Showstopper Time (min)]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Showstopper Time (min)]' />
+            <map key='[Showstopper]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[Showstopper]' />
+            <map key='[Signature Bake]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[Signature Bake]' />
+            <map key='[Signature Time (min)]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Signature Time (min)]' />
+            <map key='[Signature]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Signature]' />
+            <map key='[Star Baker]' value='[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB].[Star Baker]' />
+            <map key='[Status]' value='[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F].[Status]' />
+            <map key='[Technical Time (min)]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Technical Time (min)]' />
+            <map key='[Technical]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Technical]' />
+            <map key='[Theme]' value='[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7].[Theme]' />
+            <map key='[Winner]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Winner]' />
+            <map key='[Year]' value='[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594].[Year]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Season</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Season]</local-name>
+              <parent-name>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</parent-name>
+              <remote-alias>Season</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Bakers.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Baker</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Baker]</local-name>
+              <parent-name>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</parent-name>
+              <remote-alias>Baker</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Bakers.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>168</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Bakers.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Bakers.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Image Link</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Image Link]</local-name>
+              <parent-name>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</parent-name>
+              <remote-alias>Image Link</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Bakers.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>168</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Season</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Season (ChallengeBakes.csv)]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>Season</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Episode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Episode]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>Episode</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Baker</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Baker (ChallengeBakes.csv)]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>Baker</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>168</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SeasonEpisode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SeasonEpisode]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>SeasonEpisode</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Signature Bake</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Signature Bake]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>Signature Bake</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>999</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rank in Technical</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rank in Technical]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>Rank in Technical</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Showstopper</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Showstopper]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>Showstopper</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>994</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Status]</local-name>
+              <parent-name>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</parent-name>
+              <remote-alias>Status</remote-alias>
+              <ordinal>12</ordinal>
+              <family>ChallengeBakes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Airdate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Airdate]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Airdate</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Season</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Season (Episodes.csv)]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Season</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Episode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Episode (Episodes.csv)]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Episode</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Theme</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Theme]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Theme</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Signature</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Signature]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Signature</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Signature Time (min)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Signature Time (min)]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Signature Time (min)</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Technical</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Technical]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Technical</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Technical Time (min)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Technical Time (min)]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Technical Time (min)</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Showstopper</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Showstopper (Episodes.csv)]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Showstopper</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>133</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Showstopper Time (min)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Showstopper Time (min)]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>Showstopper Time (min)</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MyRating (out of 10)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MyRating (out of 10)]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>MyRating (out of 10)</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MyViewership</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MyViewership]</local-name>
+              <parent-name>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</parent-name>
+              <remote-alias>MyViewership</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Episodes.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>132</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SeasonEpisode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SeasonEpisode (Outcomes.csv)]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>SeasonEpisode</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Baker</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Baker (Outcomes.csv)]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>Baker</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>168</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Star Baker</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Star Baker]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>Star Baker</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Did well</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Did well]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>Did well</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Safe</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Safe]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>Safe</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>At risk</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[At risk]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>At risk</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Eliminated</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Eliminated]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>Eliminated</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Absent</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Absent]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>Absent</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Handshake</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Handshake]</local-name>
+              <parent-name>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</parent-name>
+              <remote-alias>Handshake</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Outcomes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Season</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Season (Seasons.csv)]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Season</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hosts</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Hosts]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Hosts</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Judges</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Judges]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Judges</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Network</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Network]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Network</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Winner</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Winner]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Winner</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PBS Season</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PBS Season]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>PBS Season</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Netflix Collection</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Netflix Collection]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Netflix Collection</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Roku Season</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Roku Season]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Roku Season</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Seasons.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Gender:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;F&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;M&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Bakers.csv' id='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B'>
+            <properties context=''>
+              <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Bakers.csv' table='[Bakers#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='Season' ordinal='0' />
+                  <column datatype='string' name='Baker' ordinal='1' />
+                  <column datatype='integer' name='Age' ordinal='2' />
+                  <column datatype='string' name='Gender' ordinal='3' />
+                  <column datatype='string' name='Image Link' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B' table='[Extract].[Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B]' type='table' />
+            </properties>
+          </object>
+          <object caption='ChallengeBakes.csv' id='ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F'>
+            <properties context=''>
+              <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='ChallengeBakes.csv' table='[ChallengeBakes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='Season' ordinal='0' />
+                  <column datatype='integer' name='Episode' ordinal='1' />
+                  <column datatype='string' name='Baker' ordinal='2' />
+                  <column datatype='string' name='SeasonEpisode' ordinal='3' />
+                  <column datatype='string' name='Signature Bake' ordinal='4' />
+                  <column datatype='integer' name='Rank in Technical' ordinal='5' />
+                  <column datatype='string' name='Showstopper' ordinal='6' />
+                  <column datatype='string' name='Status' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F' table='[Extract].[ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F]' type='table' />
+            </properties>
+          </object>
+          <object caption='Episodes.csv' id='Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7'>
+            <properties context=''>
+              <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Episodes.csv' table='[Episodes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' name='Airdate' ordinal='0' />
+                  <column datatype='integer' name='Season' ordinal='1' />
+                  <column datatype='integer' name='Episode' ordinal='2' />
+                  <column datatype='string' name='Theme' ordinal='3' />
+                  <column datatype='string' name='Signature' ordinal='4' />
+                  <column datatype='integer' name='Signature Time (min)' ordinal='5' />
+                  <column datatype='string' name='Technical' ordinal='6' />
+                  <column datatype='integer' name='Technical Time (min)' ordinal='7' />
+                  <column datatype='string' name='Showstopper' ordinal='8' />
+                  <column datatype='integer' name='Showstopper Time (min)' ordinal='9' />
+                  <column datatype='real' name='MyRating (out of 10)' ordinal='10' />
+                  <column datatype='real' name='MyViewership' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7' table='[Extract].[Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7]' type='table' />
+            </properties>
+          </object>
+          <object caption='Outcomes.csv' id='Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB'>
+            <properties context=''>
+              <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Outcomes.csv' table='[Outcomes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='SeasonEpisode' ordinal='0' />
+                  <column datatype='string' name='Baker' ordinal='1' />
+                  <column datatype='integer' name='Star Baker' ordinal='2' />
+                  <column datatype='integer' name='Did well' ordinal='3' />
+                  <column datatype='integer' name='Safe' ordinal='4' />
+                  <column datatype='integer' name='At risk' ordinal='5' />
+                  <column datatype='integer' name='Eliminated' ordinal='6' />
+                  <column datatype='integer' name='Absent' ordinal='7' />
+                  <column datatype='integer' name='Handshake' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB' table='[Extract].[Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB]' type='table' />
+            </properties>
+          </object>
+          <object caption='Seasons.csv' id='Seasons.csv_F3AB62048CCA4004B149C6CDB9763594'>
+            <properties context=''>
+              <relation connection='textscan.14z21vw1k99hpc1dmxnuu1p29m09' name='Seasons.csv' table='[Seasons#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='Season' ordinal='0' />
+                  <column datatype='string' name='Hosts' ordinal='1' />
+                  <column datatype='string' name='Judges' ordinal='2' />
+                  <column datatype='string' name='Network' ordinal='3' />
+                  <column datatype='string' name='Winner' ordinal='4' />
+                  <column datatype='integer' name='Year' ordinal='5' />
+                  <column datatype='integer' name='PBS Season' ordinal='6' />
+                  <column datatype='integer' name='Netflix Collection' ordinal='7' />
+                  <column datatype='integer' name='Roku Season' ordinal='8' />
+                  <column datatype='string' name='Location' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Seasons.csv_F3AB62048CCA4004B149C6CDB9763594' table='[Extract].[Seasons.csv_F3AB62048CCA4004B149C6CDB9763594]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Baker]' />
+              <expression op='[Baker (ChallengeBakes.csv)]' />
+            </expression>
+            <first-end-point object-id='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B' />
+            <second-end-point object-id='ChallengeBakes.csv_A770A0374C2743D9875B8A396A40405F' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Season]' />
+              <expression op='[Season (Episodes.csv)]' />
+            </expression>
+            <first-end-point object-id='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B' />
+            <second-end-point object-id='Episodes.csv_DB54AE0996234D9CB29A612D3B5402A7' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Baker]' />
+              <expression op='[Baker (Outcomes.csv)]' />
+            </expression>
+            <first-end-point object-id='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B' />
+            <second-end-point object-id='Outcomes.csv_EA56E1BBA19B443F8091F4E6553BFDCB' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Season]' />
+              <expression op='[Season (Seasons.csv)]' />
+            </expression>
+            <first-end-point object-id='Bakers.csv_856CD571E66E44AF96F363BD6A51AD0B' />
+            <second-end-point object-id='Seasons.csv_F3AB62048CCA4004B149C6CDB9763594' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_645018D4125F4B5B993A65C036EB86C0]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Gender Distribution of Bakers' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_0989A4414B27459298EE56F7491FEF54]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Average Age Baker Box Plot' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_B7A05357E9984360857ECDACC9121D05]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Average Age of Bakers per Season' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_08A9A1D3604E4E01B2F76F37018C189E]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Average Viewership per Season/Network' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Age Baker Box Plot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bakers+' name='federated.0c1sylv0s3agl119vdwai1aikvp6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0c1sylv0s3agl119vdwai1aikvp6'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Baker]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Network]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Season]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Baker]' derivation='None' name='[none:Baker:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Gender)]'>
+            <groupfilter function='level-members' level='[Gender]' user:ui-action-filter='[Action1_645018D4125F4B5B993A65C036EB86C0]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Network,Season)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_08A9A1D3604E4E01B2F76F37018C189E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Network]' />
+              <groupfilter function='level-members' level='[none:Season:ok]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Gender)]</column>
+            <column>[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Network,Season)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Baker:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[avg:Age:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[avg:Age:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0c1sylv0s3agl119vdwai1aikvp6].[avg:Age:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{86A36944-927F-4C11-AA21-90E3F3DE2025}' />
+    </worksheet>
+    <worksheet name='Average Age of Bakers per Season'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bakers+' name='federated.0c1sylv0s3agl119vdwai1aikvp6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0c1sylv0s3agl119vdwai1aikvp6'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Network]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Season]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Gender)]'>
+            <groupfilter function='level-members' level='[Gender]' user:ui-action-filter='[Action1_645018D4125F4B5B993A65C036EB86C0]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Network,Season)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_08A9A1D3604E4E01B2F76F37018C189E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Network]' />
+              <groupfilter function='level-members' level='[none:Season:ok]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Gender)]</column>
+            <column>[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Network,Season)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0c1sylv0s3agl119vdwai1aikvp6].[avg:Age:qk]</rows>
+        <cols>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Season:ok]</cols>
+      </table>
+      <simple-id uuid='{F068E25E-F33F-4B0C-B0A2-58F40E6AC8B4}' />
+    </worksheet>
+    <worksheet name='Average Viewership per Season/Network'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bakers+' name='federated.0c1sylv0s3agl119vdwai1aikvp6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0c1sylv0s3agl119vdwai1aikvp6'>
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='My Viewership' datatype='real' name='[MyViewership]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Network]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Season]' role='measure' type='quantitative' />
+            <column-instance column='[MyViewership]' derivation='Avg' name='[avg:MyViewership:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Network]' derivation='None' name='[none:Network:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Gender)]'>
+            <groupfilter function='level-members' level='[Gender]' user:ui-action-filter='[Action1_645018D4125F4B5B993A65C036EB86C0]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Gender)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Network:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0c1sylv0s3agl119vdwai1aikvp6].[avg:MyViewership:qk]</rows>
+        <cols>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Season:qk]</cols>
+      </table>
+      <simple-id uuid='{F829604B-8E7C-43F1-9E6D-F6B0487D9747}' />
+    </worksheet>
+    <worksheet name='Gender Distribution of Bakers'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Bakers+' name='federated.0c1sylv0s3agl119vdwai1aikvp6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0c1sylv0s3agl119vdwai1aikvp6'>
+            <column datatype='string' name='[Baker]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Network]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Season]' role='measure' type='quantitative' />
+            <column-instance column='[Baker]' derivation='Count' name='[cnt:Baker:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Network,Season)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action4_08A9A1D3604E4E01B2F76F37018C189E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Network]' />
+              <groupfilter function='level-members' level='[none:Season:ok]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0c1sylv0s3agl119vdwai1aikvp6].[Action (Network,Season)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0c1sylv0s3agl119vdwai1aikvp6].[cnt:Baker:qk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Gender:nk]' />
+              <wedge-size column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[cnt:Baker:qk]' />
+              <size column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[cnt:Baker:qk]' />
+              <text column='[federated.0c1sylv0s3agl119vdwai1aikvp6].[cnt:Baker:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D416F98B-42BE-4370-8CD6-9A64BC39F3EC}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='776' maxwidth='1468' minheight='776' minwidth='1468' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97938' id='7' param='horz' type-v2='layout-flow' w='98910' x='545' y='1031'>
+            <zone h='97938' id='5' type-v2='layout-basic' w='98910' x='545' y='1031'>
+              <zone h='48969' id='3' name='Gender Distribution of Bakers' w='49456' x='49999' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48969' id='10' name='Average Age of Bakers per Season' w='49455' x='545' y='1031'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48969' id='11' name='Average Age Baker Box Plot' w='49454' x='545' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48969' id='12' name='Average Viewership per Season/Network' w='49455' x='50000' y='1031'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97938' id='15' param='vert' type-v2='layout-flow' w='98910' x='545' y='1031'>
+                <zone fixed-size='280' h='48969' id='10' is-fixed='true' name='Average Age of Bakers per Season' w='49455' x='545' y='1031'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48969' id='12' is-fixed='true' name='Average Viewership per Season/Network' w='49455' x='50000' y='1031'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48969' id='11' is-fixed='true' name='Average Age Baker Box Plot' w='49454' x='545' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48969' id='3' is-fixed='true' name='Gender Distribution of Bakers' w='49456' x='49999' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7240FEDC-DDB3-495A-9F90-7DDD1D865827}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Gender Distribution of Bakers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0c1sylv0s3agl119vdwai1aikvp6].[cnt:Baker:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Baker:nk]</field>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DBD0305D-D5C6-41C2-845E-A1B407FF7E4A}' />
+    </window>
+    <window class='worksheet' name='Average Age of Bakers per Season'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Season:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{83B565AE-798F-462E-B010-18A04254DE3A}' />
+    </window>
+    <window class='worksheet' name='Average Age Baker Box Plot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Baker:nk]</field>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Gender:nk]</field>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Season:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7CA88C30-46E1-4D25-BC85-85F7472E9CAA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Average Viewership per Season/Network'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Network:nk]</field>
+            <field>[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:SeasonEpisode:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5759DB3A-835F-4C59-BC14-8F62114E10CC}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Average Age Baker Box Plot'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Age of Bakers per Season'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Viewership per Season/Network'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gender Distribution of Bakers'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0c1sylv0s3agl119vdwai1aikvp6].[none:Gender:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{4E3F03C1-EA84-45FA-A6B3-9EDD37AE2697}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average Age Baker Box Plot' width='132'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Average Age of Bakers per Season' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Average Viewership per Season/Network' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      QmCC
+    </thumbnail>
+    <thumbnail height='192' name='Gender Distribution of Bakers' width='192'>
+      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
+      UsLtboO584GhEKzsmN9rZ34O7uq/ooDTfWpGbSUuXTkXy+fXIx4d3//hDIBOyulph/X2I7Db
+      noUcHP1l0//kFuJP6a8XbJ6QITBvRjUuWtqAc86sQyxSmIMXBkDDklIC5iCcjl2wWp6B3b4V
+      yPeP6LX/yizH3wfPH9fnCwHMqK3Civn1+PL8etSelhjRlZ3R4DkADUsIAcQSCM9sRmjGKshs
+      L5wDb8A58Drsgzshez4c9rVjvQRaXhrF3FQSTbNqsGh2LaYlKxAKFe9yLQOgERFCQJROhtF4
+      EcJzLkQMgMz2wDm4C25PO9yjH8DtOwD32H7AymFQVCBkCLhS4vgxhiEEhPj/FaiQgapEHHXJ
+      ckxNluP008oxb0YS9TWVCBliKL6J+HvxEIgKSboOYKZxLAukTYGcaSNn2ggZAtFIGCXRMOKx
+      MBIl0XGfwBYCAyCt8VYI0hoDIK0xANIaAyCtMQDSGgMgrTEA0hoDIK0xANIaAyCtMQDSGgMg
+      rTEA0hoDIK0xANIaAyCtMQDSGgMgrTEA0hoDIK0xANIaAyCtMQDSGgMgrTEA0hoDIK0xANIa
+      AyCtMQDSGgMgrTEA0hoDIK0xANIaAyCtMQDSGgMgrTEA0hoDIK0xANIaAyCtMQDSGgMgrTEA
+      0hoDIK0xANLa/wAkmZdZ04PpBgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
