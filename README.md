@@ -25,14 +25,14 @@
 <details>
 <summary><h4 id="data-analysis-with-Tableau">Data Analysis with Tableau <em>(Under Construction)</em></h4></summary> 
 <ul>
-<li><a href="">Data Analytics with Tableau</a></li>
+<li><a href="">Data Visualisation with Tableau</a></li>
 </ul>
 </details>
 
 <details>
 <summary><h4 id="data-analysis-with-Power BI">Data Analysis with Power BI <em>(Under Construction)</em></h4></summary> 
 <ul>
-<li><a href="">Data Analytics with Power BI</a></li>
+<li><a href="">Data Visualisation with Power BI</a></li>
 </ul>
 </details>
 
