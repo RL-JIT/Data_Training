@@ -30,9 +30,9 @@
 </details>
 
 <details>
-<summary><h4 id="data-analysis-with-Power BI">Data Analysis with Power BI <em>(Under Construction)</em></h4></summary> 
+<summary><h4 id="data-analysis-with-Power BI">Data Analysis with Power BI</em></h4></summary> 
 <ul>
-<li><a href="">Data Visualisation with Power BI</a></li>
+<li><a href="./07_Data_Visualisation_with_PowerBI">Data Visualisation with Power BI</a></li>
 </ul>
 </details>
 
