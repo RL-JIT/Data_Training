@@ -32,4 +32,4 @@ Materials | Objectives |
 
 #### Audio/Visual
 - Room set up to show slide decks and demonstrations or
-- Remote set-up (e.g. Teams/Zoom/etc)
+- Remote set-up (e.g. Teams/Zoom/Meet)
