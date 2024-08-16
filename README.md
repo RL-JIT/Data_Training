@@ -32,7 +32,9 @@
 <details>
 <summary><h4 id="data-analysis-with-Power BI">Data Analysis with Power BI</em></h4></summary> 
 <ul>
-<li><a href="./08_Data_Visualisation_with_PowerBI">Data Visualisation with Power BI</a></li>
+<li><a href="./08_Data_Visualisation_with_PowerBI/readme.md#cleaning-and-modeling-data-with-power-query-and-power-bi">Cleaning and Modeling Data with Power Query and Power BI</a></li>
+<li><a href="./08_Data_Visualisation_with_PowerBI/readme.md#designing-and-creating-visualizations-in-power-bi">Designing and Creating Visualizations in Power BI</a></li>
+<li><a href="./08_Data_Visualisation_with_PowerBI/readme.md#key-dashboarding-principles-in-power-bi">Key Dashboarding Principles in Power BI</a></li>
 </ul>
 </details>
 
