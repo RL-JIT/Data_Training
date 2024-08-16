@@ -18,3 +18,17 @@ Materials | Objectives |
 Materials | Objectives |
 | ---- | ---------- |
 | [- Trainer Instructions](./Day4AM_Trainer_Instructions.docx) <br> [- Lecture](./Day4_AM_KeyDashboardingPrinciples.slides.md) <br> [- Demo Report (show unformatted v formatted pages)](./Day3_PM_CustomerProductsOrders_Clean_withReports.pbix) | - Learn key dashboarding principles.<br>- Practice formatting dashboards to most effectively communicate data insights. |
+
+### Learning Objectives:
+- Clean and prepare data using Power Query in Power BI.
+- Design and create visualizations in Power BI.
+- Learn key dashboarding principles for effectively communicating data stories in Power BI.
+
+### Set-Up
+
+#### Tools
+- Power BI
+- Internet Browser/Connection
+
+#### Audio/Visual
+- Room set up to show slide decks and demonstrations
