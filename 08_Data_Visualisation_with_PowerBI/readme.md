@@ -31,4 +31,5 @@ Materials | Objectives |
 - Internet Browser/Connection
 
 #### Audio/Visual
-- Room set up to show slide decks and demonstrations
+- Room set up to show slide decks and demonstrations or
+- Remote set-up (e.g. Teams/Zoom/etc)
